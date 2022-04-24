@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/geet-hub-community/static/css/main.27cd0aff.chunk.css",
+    "main.css": "/geet-hub-community/static/css/main.1ac5a6af.chunk.css",
     "main.js": "/geet-hub-community/static/js/main.f9c58514.chunk.js",
     "main.js.map": "/geet-hub-community/static/js/main.f9c58514.chunk.js.map",
     "runtime-main.js": "/geet-hub-community/static/js/runtime-main.2610679a.js",
@@ -8,13 +8,13 @@
     "static/js/2.c818ac38.chunk.js": "/geet-hub-community/static/js/2.c818ac38.chunk.js",
     "static/js/2.c818ac38.chunk.js.map": "/geet-hub-community/static/js/2.c818ac38.chunk.js.map",
     "index.html": "/geet-hub-community/index.html",
-    "static/css/main.27cd0aff.chunk.css.map": "/geet-hub-community/static/css/main.27cd0aff.chunk.css.map",
+    "static/css/main.1ac5a6af.chunk.css.map": "/geet-hub-community/static/css/main.1ac5a6af.chunk.css.map",
     "static/js/2.c818ac38.chunk.js.LICENSE.txt": "/geet-hub-community/static/js/2.c818ac38.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2610679a.js",
     "static/js/2.c818ac38.chunk.js",
-    "static/css/main.27cd0aff.chunk.css",
+    "static/css/main.1ac5a6af.chunk.css",
     "static/js/main.f9c58514.chunk.js"
   ]
 }
