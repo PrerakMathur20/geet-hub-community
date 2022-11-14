@@ -1,25 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
-
-  const [theme, setTheme] = useState("light-theme");
-  const [state, setState] = useState(false);
-
-  const toggleTheme = () => {
-    if (theme === "dark-theme") {
-      setState(!state);
-      setTheme('light-theme');
-    } else {
-      setTheme('dark-theme');
-      setState(!state);
-    }
-  }
-
-  useEffect(() => {
-    document.body.className = theme;
-  }, [theme])
 
   return (
     <div className="nav">
