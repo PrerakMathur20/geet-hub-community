@@ -7,7 +7,6 @@
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@fortawesome/sharp-solid-svg-icons": "^6.2.0",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
@@ -19,7 +18,7 @@
     "express-rate-limit": "^6.6.0",
     "icons": "^1.0.0",
     "mongoose": "^6.6.5",
-    "react": "^17.0.2",
+    "react": "^17.0.1",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^17.0.1",
     "react-scripts": "^5.0.1",
@@ -29,12 +28,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "dev":"(cd src/db && node index.js) & npm start",
+    "dev": "(cd src/db && node index.js) & npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "serve -s build"
   },
   "eslintConfig": {
     "extends": [
